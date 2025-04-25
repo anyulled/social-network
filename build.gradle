@@ -100,7 +100,7 @@ dependencies {
     testImplementation 'org.mockito:mockito-junit-jupiter:5.16.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.12.1'
     compile group: 'com.google.guava', name: 'guava', version: '33.4.8-jre'
-    compileOnly 'org.projectlombok:lombok:1.18.36'
-    annotationProcessor 'org.projectlombok:lombok:1.18.36'
+    compileOnly 'org.projectlombok:lombok:1.18.38'
+    annotationProcessor 'org.projectlombok:lombok:1.18.38'
     testCompile("org.assertj:assertj-core:3.27.3")
 }
