@@ -96,7 +96,7 @@ dependencies {
     implementation('io.springfox:springfox-swagger-ui:3.0.0')
     compile group: 'io.swagger', name: 'swagger-annotations', version: '1.6.16'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.13.2'
-    testImplementation('org.junit.platform:junit-platform-runner:1.13.1')
+    testImplementation('org.junit.platform:junit-platform-runner:1.13.2')
     testImplementation 'org.mockito:mockito-junit-jupiter:5.18.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.13.2'
     compile group: 'com.google.guava', name: 'guava', version: '33.4.8-jre'
