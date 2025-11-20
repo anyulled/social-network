@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '3.5.7'
+        springBootVersion = '3.5.8'
     }
     repositories {
         mavenCentral()
@@ -13,7 +13,7 @@ plugins {
     id 'jacoco'
     id "org.sonarqube" version "7.0.1.6134"
     id 'idea'
-    id 'org.springframework.boot' version '3.5.7'
+    id 'org.springframework.boot' version '3.5.8'
     id 'com.github.kt3k.coveralls' version '2.12.2'
 }
 apply plugin: 'java'
